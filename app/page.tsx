@@ -1,9 +1,6 @@
 
+import FlightBookingPage from "@/components/FlightBookingPage";
 
 export default function Home() {
-  return (
-    <div className="min-h-screen">
-
-    </div>
-  );
+  return <FlightBookingPage />;
 }
