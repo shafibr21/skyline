@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 0.5rem;
+}
+
+* {
+  border-color: hsl(220 13% 91%);
+}
+
+body {
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+}
