@@ -1,6 +1,5 @@
-
-import FlightBookingPage from "@/components/FlightBookingPage";
+import HomePage from "@/components/HomePage";
 
 export default function Home() {
-  return <FlightBookingPage />;
+  return <HomePage />;
 }
