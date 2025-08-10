@@ -11,20 +11,17 @@ const deals = [
   {
     title: "Paris",
     copy: "From $349 round‑trip",
-    image:
-      "http://plus.unsplash.com/premium_photo-1661919210043-fd847a58522d?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/paris.png"
   },
   {
     title: "Tokyo",
     copy: "From $699 round‑trip",
-    image:
-      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400&h=300&fit=crop&auto=format",
+    image: "/tokyo.png"
   },
   {
     title: "New York",
     copy: "From $199 round‑trip",
-    image:
-      "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=400&h=300&fit=crop&auto=format",
+    image: "/ny.png"
   },
 ];
 
