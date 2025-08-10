@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <header className="w-full">
       <nav className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-5">
-        <a
+        <Link
           href="/"
           className="flex items-center gap-1 md:gap-2"
           aria-label="SKYLINE Home"
@@ -16,7 +17,7 @@ export default function Header() {
           <span className="font-display text-2xl font-extrabold tracking-tight bg-gradient-to-r from-blue-500 via-purple-500 to-violet-500 bg-clip-text text-transparent">
             SKYLINE
           </span>
-        </a>
+        </Link>
         <div className="hidden md:flex items-center gap-6 text-sm">
           <a className="hover:text-primary transition-colors" href="#search">
             Book

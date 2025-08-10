@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -189,7 +190,7 @@ export default function DealsSection() {
     >
       <div className="mx-auto w-full max-w-7xl px-6 py-16">
         <h2 ref={titleRef} className="font-display text-4xl md:text-5xl">
-          Today's vibrant deals
+          Today&apos;s vibrant deals
         </h2>
         <p ref={subtitleRef} className="mt-2 text-muted-foreground">
           Fresh fares to spark your next getaway.
@@ -205,9 +206,11 @@ export default function DealsSection() {
               style={{ opacity: 0 }}
             >
               <div className="aspect-video overflow-hidden">
-                <img
+                <Image
                   src={deal.image}
                   alt={`${deal.title} destination`}
+                  width={400}
+                  height={225}
                   className="w-full h-full object-cover"
                 />
               </div>

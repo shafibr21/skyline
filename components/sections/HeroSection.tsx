@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import SplitText from "gsap/SplitText";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function HeroSection() {
   const h1Ref = useRef<HTMLHeadingElement>(null);
@@ -112,7 +113,8 @@ export default function HeroSection() {
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
             Compare fares across airlines, discover vibrant deals, and book
-            flights in seconds with SKYLINE's sleek, mobile‑first experience.
+            flights in seconds with SKYLINE&apos;s sleek, mobile‑first
+            experience.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#search">
@@ -131,13 +133,14 @@ export default function HeroSection() {
           </p>
         </div>
         <div className="relative">
-          <img
+          <Image
             ref={imgRef}
-            src="plane.png"
+            src="/plane.png"
             alt="SKYLINE flight booking hero – airplane above sunrise clouds"
+            width={600}
+            height={400}
             className="w-full rounded-xl border shadow-xl"
-            loading="eager"
-            decoding="async"
+            priority
           />
         </div>
       </div>
