@@ -316,8 +316,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For support and questions:
 
 - Create an issue on GitHub
-- Email: [your-email@domain.com]
-- Discord: [Your Discord Server]
+- Email: [amishafi.ar21@gmail.com]
+- Discord: [[Your Discord Server](https://discord.gg/ZECxXFH)]
 
 ---
 
