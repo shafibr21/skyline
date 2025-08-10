@@ -98,7 +98,7 @@ export default function ResultsSection() {
                   <CardHeader>
                     <div className="flex items-center justify-between">
                       <CardTitle className="text-lg">{carrierName}</CardTitle>
-                      <span className="rounded-md bg-primary px-3 py-1 text-sm font-semibold text-primary-foreground">
+                      <span className="rounded-md bg-primary px-3 py-1 text-sm font-semibold bg-gradient-to-r from-blue-500 via-purple-500 to-violet-500 bg-clip-text text-transparent">
                         {flight.price.currency} {flight.price.total}
                       </span>
                     </div>
